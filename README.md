@@ -47,6 +47,19 @@ which looks like below
 
 ![image](https://github.com/user-attachments/assets/63234ae8-4e95-435e-8b8f-5302d7642b11)
 
+**NOTE**
+
+If you get the below error 
+
+- ModuleNotFoundError: No module named 'torchvision.transforms.functional_tensor' please follow the below work around.
+  
+  Go to the below path inside your environment /lib/python3.x/site-packages/pytorchvideo/transforms/augmentations.py and comment the below import i.e
+  
+  import torchvision.transforms.functional.to_tensor as F_t
+  
+
+
+
 
 
 
