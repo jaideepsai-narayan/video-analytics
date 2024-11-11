@@ -49,7 +49,7 @@ which looks like below
 
 **NOTE**
 
-If you get the below error 
+If you get the below error:
 
 - ModuleNotFoundError: No module named 'torchvision.transforms.functional_tensor' please follow the below work around.
   
