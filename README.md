@@ -22,8 +22,8 @@ The following information outlines the specifications used for this project:
 ### Conda Environment Setup
 
 ```bash
-conda create -n vlama python=3.10 -y
-conda activate vlama
+python3 -m venv vllama
+source vllama/bin/activate
 ```
 
 
