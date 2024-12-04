@@ -30,7 +30,7 @@ conda activate vlama
 Install the packages with help of requirements.txt file:
 
 ```
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 ```
 pip install --upgrade --upgrade-strategy eager "optimum[neural-compressor]"
